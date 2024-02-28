@@ -14,10 +14,10 @@ Recently, attention mechanisms have developed into an important tool for perform
 Install Pytorch and Tensorflow (for TensorBoard). It is required that you have access to GPUs. Matlab is required to prepare data for SUN RGB-D. The code is tested with Ubuntu 18.04, Pytorch v1.1, TensorFlow v1.14, CUDA 10.0 and cuDNN v7.4. Note: After a code update on 2/6/2020, the code is now also compatible with Pytorch v1.2+
 
 # Compile the CUDA layers for PointNet++, which we used in the backbone network:
-
+```
 cd pointnet2
 python setup.py install
-
+```
 
 # Install the following Python dependencies (with pip install):
 ```
@@ -29,19 +29,19 @@ plyfile
 ```
 # Training and evaluating
 Data preparation
-For SUN RGB-D, follow the <a href="https://gist.github.com/"README under the sunrgbd folder.
+For SUN RGB-D, follow the [README]([https://pages.github.com](https://github.com/facebookresearch/votenet/blob/main/sunrgbd/README.md)/) under the sunrgbd folder.
 
 
 
 # Train and test on SUN RGB-D
 To train a new sa-voteNet model on SUN RGB-D data (depth images):
-
+```
 CUDA_VISIBLE_DEVICES=0 python train.py --dataset sunrgbd --log_dir log_sunrgbd
-
+```
 
 # To test the trained model with its checkpoint:
-
+```
 python eval.py --dataset sunrgbd --checkpoint_path log_sunrgbd/checkpoint.tar --dump_dir eval_sunrgbd --cluster_sampling seed_fps --use_3d_nms --use_cls_nms --per_class_proposal
-
+```
 A properly trained SA-VoteNet should have around 69.72 mAP@0.25 and 54 mAP@0.5.
 
