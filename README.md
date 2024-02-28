@@ -20,12 +20,16 @@ python setup.py install
 
 
 # Install the following Python dependencies (with pip install):
-
+```
 matplotlib
 opencv-python
 plyfile
 'trimesh>=2.35.39,<2.35.40'
 'networkx>=2.2,<2.3'
+```
+# Training and evaluating
+Data preparation
+For SUN RGB-D, follow the <a href="https://gist.github.com/"README under the sunrgbd folder.
 
 
 
