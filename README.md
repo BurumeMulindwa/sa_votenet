@@ -29,7 +29,7 @@ plyfile
 ```
 # Training and evaluating
 Data preparation
-For SUN RGB-D, follow the [README]([https://pages.github.com](https://github.com/facebookresearch/votenet/blob/main/sunrgbd/README.md)/) under the sunrgbd folder.
+For SUN RGB-D, follow the [README](https://github.com/facebookresearch/votenet/blob/main/sunrgbd/README.md)/) under the sunrgbd folder.
 
 
 
