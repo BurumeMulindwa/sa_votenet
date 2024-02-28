@@ -4,7 +4,7 @@ USING 3D SHUFFLE ATTENTION IN DEEP HOUGH VOTING TO IMPROVE 3D POINT CLOUDS OBJEC
 
 # Short explanation
 
-A shuffle attention based deep hough voting for 3D object detection using the sunrgbd dataset showing promising improvements. This work aims to improve the accuracy results of the VoteNet [VoteNet](https://github.com/facebookresearch/votenet) research by adding the simple but more efficient [n-sigmoid](https://www.mdpi.com/2079-9292/12/4/911) improved [Shuffle Attention](https://blog.paperspace.com/shuffle-attention-sanet/) 
+A shuffle attention based deep hough voting for 3D object detection using the sunrgbd dataset showing promising improvements. This work aims to improve the accuracy results of the VoteNet [VoteNet](https://github.com/facebookresearch/votenet) research by adding the simple but more efficient [n-sigmoid](https://www.mdpi.com/2079-9292/12/4/911) improved [Shuffle Attention](https://blog.paperspace.com/shuffle-attention-sanet/) mechanism for Deep Convolutional Neural Networks.
 
 
 # ABSTRACT
