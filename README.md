@@ -1,5 +1,6 @@
 # sa_votenet 
-Paper title: USING 3D SHUFFLE ATTENTION IN DEEP HOUGH VOTING TO IMPROVE 3D POINT CLOUDS OBJECT DETECTION 
+# Paper title: USING 3D SHUFFLE ATTENTION IN DEEP HOUGH VOTING TO IMPROVE 3D POINT CLOUDS OBJECT DETECTION 
+
 A shuffle attention based deep hough voting for 3D object detection using the sunrgbd dataset showing promising improvements
 
 
